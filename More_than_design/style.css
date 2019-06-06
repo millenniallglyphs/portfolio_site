@@ -107,12 +107,21 @@
   padding-bottom: 20vh;
 }
 
+.toprow {
+  display: inline-block;
+}
+
 .projtitle {
   color: white;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 35px;
   margin-top: 20px;
+  display: inherit;
+}
+
+.linki {
+  display: inherit;
 }
 
 .projdscr {
