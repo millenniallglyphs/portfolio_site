@@ -105,7 +105,6 @@
   margin: auto;
   padding-top: 20vh;
   padding-bottom: 20vh;
-  outline: 1px solid blue;
 }
 
 .toprow {
@@ -171,7 +170,7 @@
 }
 
 svg:hover .socialnow {
-  fill: #0057FF;
+  fill: #AEAEAE;
 }
 
 .colorblockc {
