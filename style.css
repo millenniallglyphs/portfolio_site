@@ -56,7 +56,6 @@
 }
 
 .button {
-  border-radius: 25px;
   font-family: aktiv-grotesk, sans-serif;
   color: white;
   font-size: 20px;
@@ -64,6 +63,7 @@
   outline: 1px solid white;
   width: 200px;
   margin-top: 10vh;
+
 }
 
 #colorblocka {
@@ -178,4 +178,90 @@ svg:hover .socialnow {
   height: 60px;
   float: right;
   background-color: #AEAEAE;
+}
+
+/*screen specific sizing*//*screen specific sizing*//*screen specific sizing*//*screen specific sizing*//*screen specific sizing*/
+
+@media only screen and (max-width: 1000px) {
+
+ .announce {
+   width: 90%;
+   font-size: 12vh;
+ }
+
+ .para {
+   width: 90%;
+   font-size: 8vh;
+ }
+
+
+}
+
+@media only screen and (max-width: 414px) {
+  #header {
+    grid-template-columns: 50% 50%;
+  }
+  .hold {
+    width: 100%;
+  }
+
+  .hold > div {
+    margin-left: 2px;
+  }
+
+  .name {
+    padding-left: 10%;
+  }
+
+  .social {
+    width: 100%;
+  }
+
+  .para {
+    line-height: 1.1em;
+    width: 90%;
+    font-size: 1.5em;
+    padding-top: 3vh;
+    padding-bottom: 16vh;
+  }
+
+  .announce {
+    padding-top: 17vh;
+    width: 90%;
+    font-size: 5em;
+    line-height: 1em;
+  }
+
+  #double {
+    display: block;
+  }
+
+  #work {
+    width: 100%;
+  }
+
+  #writing {
+    width: 100%;
+  }
+
+  .button {
+    line-height: 40px;
+    padding: 10px;
+    margin-top: 6vh;
+  }
+
+  .contents {
+    width: 90%;
+    padding-top: 16vh;
+  }
+
+  .projtitle {
+    font-size: 1.5em;
+  }
+
+  #colorblockb {
+    width: 33%;
+    background-color: #FF6969;
+  }
+
 }
