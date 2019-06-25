@@ -26,6 +26,8 @@ clickit("clouda", "cloudb");
 clickit("cybernetica", "cyberneticb");
 /*recompose*/
 clickit("recomposea", "recomposeb");
+/*opensource*/
+clickit("opensourcea", "opensourceb");
 
 /*on hover calls animation function*/
 function clickit(hov, respond) {
