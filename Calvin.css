@@ -295,6 +295,14 @@ svg:hover .socialnow {
   margin: auto;
 }
 
+.socialnowbit {
+  fill: #b1a0ff;
+}
+
+#bitfoot {
+  background-color: #b1a0ff;
+}
+
 #half {
   height: 80vh;
 }
