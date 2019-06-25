@@ -7,7 +7,7 @@ a {
   color: white;
 }
 
-#header {
+.header {
   position: fixed;
   width: 100%;
   display: inline-grid;
@@ -169,7 +169,7 @@ a {
   clear: both;
 }
 
-#footer {
+.footer {
   background-color: #0057FF;
   width: 100%;
   height: 20vh;
@@ -187,6 +187,10 @@ a {
   fill: #1D3A39;
 }
 
+.socialnowaba {
+  fill: black;
+}
+
 svg:hover .socialnow {
   fill: #AEAEAE;
 }
@@ -200,6 +204,16 @@ svg:hover .socialnow {
 
 #blueover:hover {
   color: #0057FF;
+}
+
+#abhead {
+  background-color: black;
+  border-bottom: 1px solid black;
+}
+
+#abafooter {
+  background-color: black;
+  color: white;
 }
 
 /*screen specific sizing*//*screen specific sizing*//*screen specific sizing*//*screen specific sizing*//*screen specific sizing*/
@@ -274,7 +288,7 @@ svg:hover .socialnow {
 }
 
 @media only screen and (max-width: 600px) {
-  #header {
+  .header {
     grid-template-columns: 50% 50%;
   }
   .hold {

@@ -135,16 +135,7 @@ div[class*="link"] {
   box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
 }
 
-.footer {
-  padding-top: 2.5vh;
 
-}
-
-.copyright {
-  margin-top: 2%;
-  font-family: "Styrene", sans-serif;
-  font-size: 10px;
-}
 
 .dat {
 
@@ -601,6 +592,10 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
     background-size: cover;
   }
 
+.abalink {
+    color: black
+  }
+
 .aba_work {
   width: 1000px;
   margin: auto;
@@ -622,10 +617,21 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   color: #838181;
 }
 
+.butt {
+  color: #838181;
+  text-decoration: underline;
+}
+
 .aba_link {
   width: 46%;
   margin-top: 60px;
   box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
+  color: black;
+  margin-bottom: 60px;
+}
+
+#dipdown {
+  margin-bottom: 60px;
 }
 
 .aba_banner {
@@ -685,6 +691,10 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   position: relative;
   margin-top: 60px;
   z-index: 2;
+}
+
+#shad {
+  box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
 }
 
 .green_back {
@@ -979,16 +989,6 @@ background: linear-gradient(135deg, #e5f9fc 0%,#ebf2fc 100%); /* W3C, IE10+, FF1
   .social {
     width: 161px;
     margin: auto;
-  }
-
-  .copyright {
-    margin-top: 5%;
-    padding-top: 5%;
-    margin: auto;
-    width: 161px;
-    text-align: center;
-    font-family: "Styrene", sans-serif;
-    font-size: 10px;
   }
 
   #read {
