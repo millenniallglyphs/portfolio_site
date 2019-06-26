@@ -295,6 +295,11 @@ svg:hover .socialnow {
   margin: auto;
 }
 
+#nowlink {
+  color: grey;
+  text-decoration: underline;
+}
+
 .socialnowbit {
   fill: #b1a0ff;
 }
