@@ -1,48 +1,66 @@
-var animate = "clickme 0.5s infinite"
-var noanimate = "none"
 
-/*calling all of the divs to activate the link animation*/
 
-/*epiphyte*/
-clickit("epiphytea", "epiphyteb");
-clickit("epiphytec", "epiphyteb");
-/*abacus*/
-clickit("abacusa", "abacusb");
-clickit("abacusc", "abacusb");
-/*bitclaims*/
-clickit("bitclaimsa", "bitclaimsb");
-clickit("bitclaimsc", "bitclaimsb");
-/*international*/
-clickit("internationala", "internationalb");
-clickit("internationalc", "internationalb");
-/*botnet*/
-clickit("botneta", "botnetb");
-clickit("botnetc", "botnetb");
-/*capital*/
-clickit("capitala", "capitalb");
-/*cloud*/
-clickit("clouda", "cloudb");
-/*cybernetic*/
-clickit("cybernetica", "cyberneticb");
-/*recompose*/
-clickit("recomposea", "recomposeb");
-/*opensource*/
-clickit("opensourcea", "opensourceb");
+$( document ).ready(function() {
+  function hovit(itsname) {
+    $(itsname).hover(function(){
+       $(this).find(".fillit").css("fill", "#F3F2FF");
+       $(this).find(".notfill").css("stroke", "#1D3A39");
+       }, function(){
+       $(this).find(".fillit").css("fill", "none");
+       $(this).find(".notfill").css("stroke", "white");
+    });
+  }
 
-/*on hover calls animation function*/
-function clickit(hov, respond) {
-  document.getElementById(hov).onmouseover = function()
-  {getmoving(respond)};
-  document.getElementById(hov).onmouseout = function()
-  {quitmoving(respond)};
-}
+  function hova(thename) {
+    $(thename).hover(function(){
+       $(this).next().find(".fillit").css("fill", "#F3F2FF");
+       $(this).next().find(".notfill").css("stroke", "#FF6969");
+       }, function(){
+       $(this).next().find(".fillit").css("fill", "none");
+       $(this).next().find(".notfill").css("stroke", "white");
+    });
+  }
 
-/*tells selection to animate*/
-function getmoving(name) {
-  document.getElementById(name).style.animation = animate;
-}
+  //calling project section
 
-/*tells selection to stop animation*/
-function quitmoving(call) {
-  document.getElementById(call).style.animation = noanimate;
-}
+  hova("#epiphytea");
+  hova("#abacusa");
+  hova("#bitclaimsa");
+  hova("#botneta");
+
+  //calling the writing section
+  hovit("#clouda");
+  hovit("#cybernetica");
+  hovit("#recomposea");
+  hovit("#opensourcea");
+
+
+  console.log( "if you're reading this, have a great day!" );
+});
+
+
+
+/*paralax scrolling function*/
+var velocity = 0.25;
+
+function update(){
+    var pos = $(window).scrollTop();
+    $('#main').each(function() {
+        var $element = $(this);
+        // subtract some from the height b/c of the padding
+        var height = $element.height()-3100;
+        $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
+    });
+};
+
+/*call function*/
+$(window).bind('scroll', update);
+
+
+// header background color change
+$(function () {
+  $(document).scroll(function () {
+	  var $nav = $(".header");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+});
