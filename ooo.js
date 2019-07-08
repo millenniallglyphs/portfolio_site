@@ -14,7 +14,7 @@ $( document ).ready(function() {
   function hova(thename) {
     $(thename).hover(function(){
        $(this).next().find(".fillit").css("fill", "#F3F2FF");
-       $(this).next().find(".notfill").css("stroke", "#FF6969");
+       $(this).next().find(".notfill").css("stroke", "#7A888B");
        }, function(){
        $(this).next().find(".fillit").css("fill", "none");
        $(this).next().find(".notfill").css("stroke", "white");
