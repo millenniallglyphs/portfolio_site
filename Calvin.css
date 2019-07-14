@@ -814,151 +814,179 @@ h1.bitc {
 
 /*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*//*abacus*/
 
-#abaprev {
-    background-image: url(assets/ensemblesmall.jpg);
-    background-position: center;
-    background-size: cover;
-  }
 
-.abalink {
-    color: black
-  }
-
-.aba_work {
-  width: 1000px;
-  margin: auto;
-}
-
-.abacus_expo {
-  border-bottom: 1px solid #E5E5E5;
-  font-family: "UntReg", sans-serif;
-  font-size: 20px;
-  background-color: white;
-  border-right: 1px solid #E5E5E5;
-  border-left: 1px solid #E5E5E5;
-  padding: 30px;
-}
-
-.aba {
-  font-family: "UntReg", sans-serif;
-  font-size: 20px;
-  color: #838181;
-}
-
-.butt {
-  color: #838181;
-  text-decoration: underline;
-}
-
-.aba_link {
-  width: 46%;
-  margin-top: 60px;
-  box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
-  color: black;
-  margin-bottom: 60px;
-}
-
-#dipdown {
-  margin-bottom: 60px;
-}
-
-.aba_banner {
+#bannercol {
   width: 100%;
-  z-index: -2;
+  height: 100vh;
+  background: #33BC6A;
 }
 
-.aba_green {
-  position: relative;
-  width: 1000px;
+#bannerpic {
+  display: inline-flex;
+}
+
+#bannerpichii {
+  height: 100vh;
+}
+
+#bannerpicvert {
   margin: auto;
-  background-color: #596952;
-  height: 60vh;
-  z-index: 1;
+  margin-left: 14%;
 }
 
-.aba_title {
-  margin: auto;
-  width: 300px;
-  padding-top: 25vh;
-  text-align: center;
-  font-family: "UntReg", sans-serif;
-  font-size: 10vh;
+#trend {
+  width: 60vw;
 }
 
-.aba_toppic {
-  position: relative;
-  margin-top: -15vh;
-  z-index: 0;
-  clear: both;
-}
-
-.aba_line {
+#bannercall {
   position: absolute;
-  top: 50vh;
-  left: 49%;
-  width: 1px;
-  margin: auto;
-  background-color: black;
-  height: 70vw;
-  z-index: 3;
+  top: 30%;
+  left: 30%;
 }
 
-.aba_sub {
-  position: relative;
-  top: -5vh;
+#bannervert {
+  color: white;
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 200px;
+  z-index: 5;
+}
+
+.greybox {
+  width: 100%;
+  background: #F6F1F1;
+}
+
+.vertgrey {
+  /*display: inline-flex;*/
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: 48% 52%;
+  height: auto;
+}
+
+#doublemarg {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#margbottomg {
+  padding-bottom: 10vh;
+}
+
+#whitebox {
+  background: white;
+}
+
+.ensem {
+  width: 52vw;
+}
+
+.abwords>p {
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 16px;
+}
+
+.abwords>h3 {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 30px;
+}
+
+.greyform {
+  display: block;
+}
+
+.abwords {
+  max-width: 415px;
+  width: 95%;
   margin: auto;
-  width: 1000px;
-  padding-top: 25vh;
-  text-align: center;
-  font-family: "UntReg", sans-serif;
-  font-size: 8vh;
+}
+
+.greytext {
+  margin: auto;
+}
+
+.greyimg {
+  display: block;
+  position: relative;
+}
+
+#headlinkab {
+  color: white;
+}
+
+.bigcall {
+  width: 1300px;
+  margin: auto;
+  margin-top: 10vh;
   margin-bottom: 10vh;
 }
 
-.aba_bodypic {
-  position: relative;
-  margin-top: 60px;
-  z-index: 2;
+#quote {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 83px;
 }
 
-#shad {
-  box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
+#hide {
+  color: white;
 }
 
-.green_back {
-  margin-top: -60vh;
+#falsestart {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: 60% 40%;
+}
+
+#animoc {
   width: 100%;
-  height: 80vh;
-  position: relative;
-  background-color: #596952;
-  z-index: 0;
 }
 
-#symbio {
-  position: relative;
-  margin-top: -18vh;
-  z-index: 2;
+#rightsize {
+  background-image: url(assets/sketchextension.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
 }
 
-#extension {
-  width: 360px;
+#gifvert {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+#count {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 80px;
+}
+
+#count>span {
+  color: #33BC6A;
+}
+
+.ababutton {
+  background: #33BC6A;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+
+#sketchhold {
+  width: 80%;
   margin: auto;
 }
 
-#link_me {
-  margin-bottom: 20vh;
+#sketchvert {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: 50% 50%;
 }
 
-#lowkey {
-  margin-bottom: 0;
-}
-
-#highkey {
-  margin-bottom: 0;
-}
-
-#upshift {
-  margin-top: -20;
+.sketch {
+  width: 100%;
 }
 
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/

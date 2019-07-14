@@ -34,9 +34,6 @@ $( document ).ready(function() {
   hovit("#recomposea");
   hovit("#opensourcea");
 
-  var copyText = $("#mine").text();
-
-  console.log( "if you're reading this, have a great day!" );
   console.log(copyText);
 });
 
@@ -85,6 +82,14 @@ $(function () {
 	});
 });
 
+$(function () {
+  $(document).scroll(function () {
+	  var $nav = $("#newname");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+});
+
+//copy ipfs to the clipboard
 
 $("#backwhite") .click(function () {
   var copyText = $("#mine").text();

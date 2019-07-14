@@ -12,13 +12,17 @@
 
     <title>Calvin Hutcheon</title>
     <!--typefaces-->
+    <link rel="stylesheet" href="https://use.typekit.net/wxs7ums.css">
+    <!--link to stlesheet-->
     <link rel="stylesheet" type="text/css" href="Calvin.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!--jquery link-->
+    <script src="jQuery-3.4.1/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-  <div class="header" id="abhead">
+  <div class="header" id="newname">
     <div class="name">
-      <a href="index.html">Calvin Hutcheon</a>
+      <a id="headlinkab" href="index.html">Calvin Hutcheon</a>
     </div>
     <div class="social">
       <div class="hold">
@@ -44,172 +48,204 @@
 
   <!--content of project-->
 
+<!--BANNER-->
 
-
-  <div class="wide">
-   <div class="aba_green">
-    <div class="aba_title">
-      abacus
+  <div id="bannercol">
+    <div id="bannerpic">
+      <div id="bannerpichii">
+      </div>
+      <div id="bannerpicvert">
+        <img id="trend" src="assets/candle.jpg">
+      </div>
+    </div>
+    <div id="bannercall">
+      <div id="bannervert">
+        Abacus
+      </div>
     </div>
   </div>
-  <div class="aba_line">
 
+<!--DECRIPTION-->
+
+  <div class="greybox">
+    <div class="vertgrey" id="doublemarg">
+      <div class="greytext">
+        <div class="greyform">
+          <div class="abwords">
+            <h3>
+              Accounting for Crissis
+            </h3>
+            <p>
+              Responding to the recent UN climate report giving us 12 years to develop systems of resiliency in the face of catastrophic climate change, I prototype ways of accounting for the remaining time. These experiments focus on rapid itteration within a variety of mediums, resulting in the creations of a chrome extension, a tabletop clock, a ceremonial candle and website.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="greyimg">
+        <img class="ensem" src="assets/ensemblesmall.jpg">
+      </div>
+    </div>
   </div>
 
-  <div class="aba_toppic">
-    <img class="aba_banner" src="assets/ensemblesmall.jpg">
+<!--BIG CALL-->
+
+<div class="bigcall">
+  <div id="quote">
+    <div>
+      “the felled trees an abacus <br>
+       <span id="hide">"</span>tallying the years.”
+    </div>
   </div>
+</div>
 
-   <div class="aba_sub">
-    accounting for crisis
+<!--FALSE START-->
 
-   </div>
-    <div class="aba_work">
-      <div class="work">
-        <div class="abacus_expo">
-          <p class="aba">
-            This loose collections of projects represents a response to the recent UN climate report. In this report, it is stated that we have 12 years to develop systems of resiliency in the face of catastrophic climate change. I attempt to account for the time remaining in various ways. These experiments focus on rapid prototyping with goal of reaching a maximally impactful solution. Hoping to exploit the most effective points of orientation, I created a chrome plug in, a tabletop clock, a ceremonial candle and website.
+<div id="falsestart">
+  <div>
+    <img id="animoc" src="assets/animoc.gif">
+  </div>
+  <div>
+    <div id="rightsize">
+    </div>
+    <div id="gifvert">
+      <div class="abwords">
+        <h3>
+          A False Start
+        </h3>
+        <p>
+          Inspired by lines "the felled trees an abacus/ tallying the years," from a poem by Sam Olsen, I attempted to create the digital equivalent, tallying loss in concrete images. However, as soon as I had mocked this idea up, I realized it involved too many variables. From there, I paired everything down to the idea of a countdown. This was the single point of orientation that informed the rest of the project.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--COUNTDOWN-->
+
+<div class="bigcall">
+  <div class="timedown">
+    <p id="count">
+    <span class="big" id="year"></span> years,
+    <span class="big"  id="day"></span> days,
+    <span class="big" id="hour"></span> hours, <br>
+    <span class="big" id="minute"></span> minutes, and
+    <span class="big" id="second"></span> seconds
+    <p>
+  </div>
+</div>
+
+<!--MATERIAL TERMS-->
+
+<div class="greybox">
+  <div class="vertgrey" id="margbottomg">
+    <div class="greytext">
+      <div class="greyform">
+        <div class="abwords">
+          <h3>
+            Material Terms
+          </h3>
+          <p>
+            Finally, I put together a simple website that put this time into a quotidian perspective. In addition to measuring the remaining time in days, I also included metrics such as hair length, number of meals eaten, and number of steps taken.
           </p>
         </div>
-      </div>
-      <div class="aba_link">
-        <div class="work_link" id="link_1">
-          <div>
-            <a class="butt" id="btnt" href="https://www.ipcc.ch/sr15/">Read the Climate Report</a>
-          </div>
-          <div>
-            <svg width="17" height="18" viewBox="0 0 36 39" fill="none" fill-opacity="0.0" xmlns="https://www.w3.org/2000/svg"><path d="M3 11H10.5V0H0V10L8.5 2" transform="translate(3 3) scale(3)" stroke="#838181" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 0H4V4" transform="translate(16.5 9) scale(3)" stroke="#838181" stroke-linecap="round"/></svg>
-          </div>
-        </div>
-       </div>
-    </div>
-      <div class="aba_work">
-       <div class="aba_bodypic">
-         <img class="aba_banner" src="assets/extension2.jpg">
-       </div>
-    </div>
-
-    <div class="green_back">
-
-    </div>
-    <div class="aba_work">
-
-       <div class="work">
-        <div class="abacus_expo" id="symbio">
-          <p class="aba">
-            To  account for a changing climate, I created a chrome extension. This would constantly orient the user’s browsing. The end result is a clock that is shown every time a new tab is opened. However, it took time to reach this solution. I had ideas for a much more complex plug in. These focused on surfacing electricity usage and data consumption.  It was only by working through and designing this complex system that I realized I needed to create something simple—something that could be understood in an instant. Based on conversations with my friend Martín, I was inspired by the idea of a clock and used that as inspiration moving forward.
-          </p>
-        </div>
-      </div>
-      <div class="aba_link">
-        <div class="work_link" id="link_1">
-          <div>
-            <a class="butt" id="btnt" href="https://github.com/millenniallglyphs/Semantic-Dictionary-Extension">Get the Extension for Chrome</a>
-          </div>
-          <div>
-            <svg width="17" height="18" viewBox="0 0 36 39" fill="none" fill-opacity="0.0" xmlns="https://www.w3.org/2000/svg"><path d="M3 11H10.5V0H0V10L8.5 2" transform="translate(3 3) scale(3)" stroke="#838181" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 0H4V4" transform="translate(16.5 9) scale(3)" stroke="#838181" stroke-linecap="round"/></svg>
-          </div>
-        </div>
-    </div>
-    <div class="flex_content">
-      <div class="tracer">
-        <div>
-          <img class="aba_banner" src="assets/sketchextension.jpg">
-        </div>
-      </div>
-      <div class="tracer">
-        <div id="extension">
-          <img class="aba_banner" src="assets/abacus.png">
-        </div>
+        <a>
+          <button class="ababutton">
+            See The Site
+          </button>
+        </a>
       </div>
     </div>
-    <div class="aba_bodypic" id="shad">
-         <img class="aba_banner" src="assets/MacBook%20Pro.png">
-      </div>
-     <div class="work">
-        <div class="abacus_expo">
-          <p class="aba">
-            Inspired by lines "the felled trees an abacus/ tallying the years," from a poem by Sam Olsen, I attempted to create the digital equivalent, tallying loss in concrete images. However, as soon as I had mocked this idea up, I realized it involved too many variables. From there, I paired everything down to the idea of a countdown. This was the single point of orientation that informed the rest of the project.
-          </p>
-        </div>
-      </div>
-      <div class="aba_bodypic">
-         <img class="aba_banner" src="assets/clock.jpg">
-      </div>
+    <div class="greyimg">
+      <img class="ensem" src="assets/ipad.jpg">
+    </div>
   </div>
-  <div class="aba_work">
-      <div class="work">
-        <div class="abacus_expo">
-          <p class="aba">
+</div>
+
+<!--POINT OF ORIENTATION-->
+
+<div class="greybox" id="whitebox">
+  <div class="vertgrey">
+    <div class="greyimg">
+      <img class="ensem" src="assets/clock.jpg">
+    </div>
+    <div class="greytext">
+      <div class="greyform">
+        <div class="abwords">
+          <h3>
+            Point of Orientation
+          </h3>
+          <p>
             Hoping to make the impact more rooted in the material world, I decided to prototype a climate countdown clock using an arduino. The intention was to create a device resembling an alarm clock that would serve as a constant point of orientation. From the time indicated on the clock it would be clear: there are only so many days left to prepare.
           </p>
         </div>
       </div>
     </div>
-    <div class="aba_work">
-       <div class="aba_bodypic">
-         <img class="aba_banner" src="assets/candle.jpg">
-       </div>
+  </div>
+</div>
+
+<!--SKETCHES-->
+
+<div class="greybox" id="doublemarg">
+  <div id="sketchhold">
+    <div id="sketchvert">
+      <div>
+        <img class="sketch" src="assets/candleduex.jpg">
+      </div>
+      <div>
+        <img class="sketch" src="assets/sketch candle.jpg">
+      </div>
     </div>
-    <div class="aba_work">
-      <div class="work">
-        <div class="abacus_expo" id="dipdown">
-          <p class="aba">
+  </div>
+</div>
+
+<!--NEW RITUALS-->
+
+<div class="greybox">
+  <div class="vertgrey">
+    <div class="greytext">
+      <div class="greyform">
+        <div class="abwords">
+          <h3>
+            New Rituals
+          </h3>
+          <p>
             Exploring other ways of tracking time, I experimented with candle.s I was interested in both analog and the performative qualities of the object. In particular I was drawn to the way the object changed form overtime and the uneven way the wax melted as it marked the passage of time. In addition to producing the candle, I also drafted a proposal for a shrine where one-thousands (the number of candles needed to burn for the entire 12 year period) of these candles could exist. This religious context seemed useful and provocative. Speaking both to a sense of growing loss and a sense of growing reverence, I hoped that this experiment would impactful on an emotional in a way the others were not.
           </p>
         </div>
       </div>
-      <div class="flex_content">
-      <div class="tracer" id="lowkey">
-        <div>
-          <img class="aba_banner" src="assets/sketch%20candle.jpg">
-        </div>
-      </div>
-      <div class="tracer" id="highkey">
-        <div >
-          <img class="aba_banner" src="assets/candleduex.jpg">
-        </div>
-      </div>
     </div>
-
+    <div class="greyimg">
+      <img class="ensem" src="assets/candle.jpg">
     </div>
-
-
-
-    <div class="aba_work" id="upshift">
-       <div class="aba_bodypic">
-         <img class="aba_banner" src="assets/ipad.jpg">
-       </div>
-    </div>
-
-    <div class="green_back">
-
-    </div>
-    <div class="aba_work">
-       <div class="work">
-        <div class="abacus_expo" id="symbio">
-          <p class="aba">
-            Finally, I put together a simple website that put this time into a quotidian perspective. In addition to measuring the remaining time in days, I also included metrics such as hair length, number of meals eaten, and number of steps taken.
-          </p>
-        </div>
-      </div>
-       <div class="aba_link" id="link_me">
-        <div class="work_link">
-          <div>
-            <a class="butt" id="btnt" href="https://millenniallglyphs.github.io/Counting-the-remaining-hours-/">See the Website</a>
-          </div>
-          <div>
-            <svg width="17" height="18" viewBox="0 0 36 39" fill="none" fill-opacity="0.0" xmlns="https://www.w3.org/2000/svg"><path d="M3 11H10.5V0H0V10L8.5 2" transform="translate(3 3) scale(3)" stroke="#838181" stroke-linecap="round" stroke-linejoin="round"/><path d="M0 0H4V4" transform="translate(16.5 9) scale(3)" stroke="#838181" stroke-linecap="round"/></svg>
-          </div>
-        </div>
-       </div>
-    </div>
+  </div>
 </div>
 
+<!--CLOSE TO HOME-->
 
-
-
-
+<div class="greybox" id="whitebox">
+  <div class="vertgrey" id="doublemarg">
+    <div class="greyimg">
+      <img class="ensem" src="assets/extension2.jpg">
+    </div>
+    <div class="greytext">
+      <div class="greyform">
+        <div class="abwords">
+          <h3>
+            Close to Home
+          </h3>
+          <p>
+            To account for a changing climate, I created a chrome extension. This would constantly orient the user’s browsing. The end result is a clock that is shown every time a new tab is opened. However, it took time to reach this solution. I had ideas for a much more complex plug in. These focused on surfacing electricity usage and data consumption. It was only by working through and designing this complex system that I realized I needed to create something simple—something that could be understood in an instant. Based on conversations with my friend Martín, I was inspired by the idea of a clock and used that as inspiration moving forward.
+          </p>
+        </div>
+        <a>
+          <button class="ababutton">
+            Use the Extension
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!--footer-->
 
@@ -220,5 +256,7 @@
     </div>
   </div>
 
-</body>
+  </body>
+  <script src="ooo.js"></script>
+  <script src="timer.js"></script>
 </html>

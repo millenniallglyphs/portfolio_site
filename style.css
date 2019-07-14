@@ -53,6 +53,15 @@ body {
   transition: color 200ms linear;
 }
 
+#newname {
+  background-color: transparent;
+}
+
+#newname.scrolled {
+  background-color: #33BC6A !important;
+  transition: background-color 200ms linear;
+}
+
 
 .hold {
   width: 200px;
@@ -294,10 +303,8 @@ svg:hover .socialnow {
   color: #0057FF;
 }
 */
-#abhead {
-  background-color: black;
-  border-bottom: 1px solid black;
-}
+
+
 
 #abafooter {
   background-color: black;
