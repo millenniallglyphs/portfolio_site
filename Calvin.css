@@ -143,11 +143,14 @@ div[class*="link"] {
 
 
 .social {
-
+  width: 250px;
+  background-color: white;
+  height: 60px;
+  background-color: white;
 }
 
 .social>div {
-  margin: 10px;
+  margin-top: 10px;
   float: right;
 }
 
@@ -1563,6 +1566,10 @@ h1.bitc {
 
   #userilu {
     margin-top: 10vh;
+    margin: auto;
+    width: 95%;
+    max-width: 400px;
+    padding: top: 10vh;
   }
 
   #peopleweb {
@@ -1595,7 +1602,7 @@ h1.bitc {
     margin-top: 10vh;
     margin: auto;
     width: 90%;
-    max-width: 470px;
+    max-width: 300px;
   }
 
   #peopleweba {

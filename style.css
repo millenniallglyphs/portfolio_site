@@ -31,6 +31,11 @@ body {
   transition: background-color 200ms linear;
 }
 
+#bithead.scrolled {
+  background-color: #6F52D9 !important;
+  transition: background-color 200ms linear;
+}
+
 .name {
   color: white;
   font-family: 'aktiv-grotesk', sans-serif;
