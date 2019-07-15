@@ -151,7 +151,7 @@ div[class*="link"] {
 
 .social>div {
   margin-top: 10px;
-  float: right;
+  /*float: right;*/
 }
 
 #quote_box {
@@ -304,7 +304,7 @@ svg:hover .socialnow {
 }
 
 .socialnowbit {
-  fill: #b1a0ff;
+  fill: #6F52D9;
 }
 
 #bitfoot {
@@ -606,8 +606,8 @@ background: linear-gradient(135deg, #f7f4f4 1%,#fce5e7 100%); /* W3C, IE10+, FF1
 
 #logobanner {
   width:100%;
-  height: 70vh;
-  background: linear-gradient(302.68deg, #977FEF 12.4%, #6F52D9 97.36%);
+  height: 38vh;
+  background: linear-gradient(302.68deg, #7FCDEF 12.4%, #6F52D9 97.36%);
 }
 
 #logotypemargin {
@@ -625,7 +625,7 @@ background: linear-gradient(135deg, #f7f4f4 1%,#fce5e7 100%); /* W3C, IE10+, FF1
 }
 
 #hii {
-  height: 70vh;
+  height: 38vh;
 }
 
 #lgdisplay {
@@ -670,7 +670,7 @@ background: linear-gradient(135deg, #f7f4f4 1%,#fce5e7 100%); /* W3C, IE10+, FF1
 #vprop {
   width: 100%;
   background: #F9F9FE;
-  margin-top: 10vh;
+  margin-top: 2vh;
   padding-bottom: 10vh;
 }
 
