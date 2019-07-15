@@ -907,7 +907,6 @@ h1.bitc {
 
 .greyimg {
   display: block;
-  position: relative;
 }
 
 #headlinkab {
@@ -1234,7 +1233,7 @@ h1.bitc {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 20px;
-}
+  }
 
   p {
     font-size:  40px;
@@ -1637,6 +1636,66 @@ h1.bitc {
     width: 95%;
     max-width: 300px;
     height: auto;
+  }
+
+  /*abacus edits*//*abacus edits*//*abacus edits*//*abacus edits*/
+
+  .vertgrey {
+    grid-template-columns: 100%;
+  }
+
+  .greyimg {
+    display: block;
+    width: 100%;
+  }
+
+  .middleim {
+    width: 95%;
+    margin: auto;
+  }
+
+  .ensem {
+    width: 100%;
+  }
+
+  #bannervert {
+    font-size: 5em;
+  }
+
+  #bannercall {
+    left: 5%;
+  }
+
+  #quote {
+    font-size: 3em;
+  }
+
+  .bigcall {
+    width: 95%;
+  }
+
+  #hide {
+    display: none;
+  }
+
+  #count {
+    font-size: 3em;
+  }
+
+  #falsestart {
+    grid-template-columns: 100%;
+  }
+
+  #mobilemarg {
+    margin-bottom: 5vh;
+  }
+
+  .ababutton {
+    margin-left: 5%;
+  }
+
+  #sketchhold {
+    width: 100%;
   }
 
 
