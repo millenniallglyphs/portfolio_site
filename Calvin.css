@@ -19,6 +19,11 @@
   src: url(assets/StyreneBWeb-Regular.ttf);
 }
 
+@@font-face {
+  font-family: 'Apoc';
+  src: url(assets/Apoc-RevelationsItalic.otf);
+}
+
 p {
   font-family: "Styrene", sans-serif;
   font-size: 82px;
@@ -117,17 +122,6 @@ div[class*="link"] {
   background-color: white;
 }
 
-#botnet {
-  background-image: url(assets/botnetphoto00.jpg);
-}
-
-#typecon {
-  background-image: url(assets/panel01.jpg);
-}
-
-#claims {
-  background-image: url(assets/bitclaimpreview01.png);
-}
 
 .pub {
   margin-top: 5%;
@@ -290,6 +284,164 @@ svg:hover .socialnow {
   font-family: "Untitled", sans-serif;
 }
 
+
+/*botnet*//*botnet*//*botnet*//*botnet*//*botnet*//*botnet*//*botnet*/
+
+#bothead {
+  height: 100vh;
+}
+
+#botpic {
+  position: absolute;
+  width: 75%;
+  height: 100vh;
+  background-image: url(assets/botnetphoto00.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 25%;
+  top: 0px;
+}
+
+#headcontain {
+  position: absolute;
+  width: 100vh;
+  height: 25%;
+  transform: rotate(90deg) translateX(37.5%) translateY(130%);
+  top: 0;
+  left: 0;
+}
+
+#headvert {
+  width: 50vh;
+  margin: auto;
+}
+
+#headthoriz {
+  display: inline-flex;
+}
+
+#headhii {
+  height: 100%;
+}
+
+#help {
+  width: 50vh;
+  display: block;
+}
+
+#bottitle {
+  font-size: 8em;
+  text-align: center;
+  font-family: 'Apoc', serif;
+}
+
+.nuebox {
+  width: 100%;
+  background: #F7F7F7;
+}
+
+.botgrid {
+  display: grid;
+  grid-template-columns: 62.5% auto;
+}
+
+.botpicdim {
+  width: 62.5vw;
+}
+
+.botpar>p {
+  font-family: serif;
+  font-size: 16px;
+}
+
+.botpar>h3 {
+  font-family: 'Apoc', serif;
+  font-size: 30px;
+}
+
+.botparhold {
+  margin: auto;
+}
+
+.botpar {
+  width: 95%;
+  max-width: 400px;
+  margin: auto;
+  display: block;
+}
+
+.botnow {
+  display: block;
+}
+
+#bottop {
+  padding-top: 12.5%;
+}
+
+.botgridb {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 6.25%;
+  padding-bottom: 6.25%;
+}
+
+#diagrambot {
+  width: 100%;
+  max-width: 570px;
+}
+
+#botdiagramhold {
+  display: block;
+  width: 100%;
+  max-width: 570px;
+  margin: auto;
+}
+
+.botgridc {
+  display: grid;
+  grid-template-columns: 37.5% auto;
+}
+
+.botpicdimb {
+  width: 37.5vw;
+}
+
+#botnowhead {
+  background: black;
+}
+
+.botbutton {
+  font-family: 'Apoc', serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  background: white;
+}
+
+#octgrid {
+  position: relative;
+  margin-top: -12.5%;
+  display: grid;
+  grid-template-columns: 25% 25% 12.5% 25% 12.5%;
+}
+
+.octgriddim {
+  width: 25vw;
+}
+
+.anotherbox {
+  background: #F7F7F7;
+}
+
+.botgride {
+  display: grid;
+  grid-template-columns: auto 62.5%;
+}
 
 /*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*//*bitclaims*/
 
