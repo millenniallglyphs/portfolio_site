@@ -139,13 +139,24 @@ body {
 }
 
 .announce {
-  padding-top: 14vh;
   font-size: 200px;
   color: black;
   font-family: aktiv-grotesk-extended, sans-serif;
   font-weight: 700;
   margin: auto;
+}
+
+#mainhold {
   width: 1000px;
+  margin: auto;
+}
+
+#mainvert {
+  display: inline-flex;
+}
+
+#heightcomp {
+  height: 90vh;
 }
 
 .button {
@@ -320,7 +331,6 @@ svg:hover .socialnow {
 @media only screen and (max-width: 1000px) {
 
  .announce {
-   width: 90%;
    font-size: 10vh;
  }
 
@@ -360,8 +370,6 @@ svg:hover .socialnow {
 @media only screen and (max-width: 800px) {
 
   .announce {
-    padding-top: 17vh;
-    width: 90%;
     font-size: 7em;
     line-height: 1em;
   }
@@ -425,8 +433,6 @@ svg:hover .socialnow {
   }
 
   .announce {
-    padding-top: 17vh;
-    width: 90%;
     font-size: 3.8em;
     line-height: 1.2em;
   }
