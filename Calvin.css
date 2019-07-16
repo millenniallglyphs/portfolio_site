@@ -1140,6 +1140,102 @@ h1.bitc {
   width: 100%;
 }
 
+
+/*epiphytecasestudy*//*epiphytecasestudy*//*epiphytecasestudy*//*epiphytecasestudy*//*epiphytecasestudy*/
+
+
+#epihead {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto 60%;
+}
+
+#epiheroim {
+  background-image: url(assets/dsip.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#ctabig {
+  width: 100%;
+  border-top: 1px solid black;
+  padding-bottom: 10vh;
+}
+
+#trigrid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 30px;
+}
+
+.linkcard {
+  border: 1px solid black;
+  display: inline-flex;
+}
+
+#trtiadhold {
+  width: 80%;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.linkicon {
+  width: 120px;
+  border-right: 1px solid black;
+  display: inline-flex;
+}
+
+.linkiconvert {
+  margin: auto;
+}
+
+.linkiconcent {
+  width: 30px;
+}
+
+.iconcardpara {
+  display: inline-flex;
+  padding: 20px;
+}
+
+.epigridright {
+  display: grid;
+  grid-template-columns: 60% auto;
+  width: 100%;
+}
+
+.epipicright {
+
+}
+
+.epidim {
+  width: 60vw;
+}
+
+.epipar {
+  width: 95%;
+max-width: 400px;
+margin: auto;
+display: block;
+}
+
+.epipar>h3 {
+  font-size: 30px;
+}
+
+.epipar>p {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.epigridleft {
+  display: grid;
+  grid-template-columns: auto 60%;
+}
+
+
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
 
 @media only screen and (max-width: 1000px) {
