@@ -73,3 +73,23 @@ $("#backwhite") .click(function () {
   document.execCommand("copy");
   alert("Copied the text: " + copyText);
 })
+
+
+//epiphyteonhover
+
+$(".linkcolumn") .hover(function () {
+  $(".linkcolumn").toggleClass("wide");
+})
+
+
+$("#hovercarda") .hover(function () {
+  $("#hovercarda").toggleClass("hov");
+})
+
+$("#hovercardb") .hover(function () {
+  $("#hovercardb").toggleClass("hov");
+})
+
+$("#hovercardc") .hover(function () {
+  $("#hovercardc").toggleClass("hov");
+})

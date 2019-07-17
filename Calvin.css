@@ -1169,6 +1169,19 @@ h1.bitc {
   grid-column-gap: 30px;
 }
 
+div[id*="hovercard"] {
+  width: 100%;
+  transition: width 200ms;
+}
+
+div[id*="hovercard"].hov {
+  width: 103% !important;
+  padding-right: 2% !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  transition: width 200ms;
+  transition: box-shadow 200ms linear;
+}
+
 .linkcard {
   border: 1px solid black;
   display: inline-flex;
@@ -1223,11 +1236,12 @@ display: block;
 
 .epipar>h3 {
   font-size: 30px;
+  font-family: aktiv-grotesk, sans-serif;
 }
 
 .epipar>p {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: aktiv-grotesk, sans-serif;
 }
 
 .epigridleft {
@@ -1235,6 +1249,82 @@ display: block;
   grid-template-columns: auto 60%;
 }
 
+#linetop {
+  padding-top: 10vh;
+  /*border-top: 1px solid black;*/
+  background: #FAFAFA;
+}
+
+.whitedouble {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.nomarg {
+  /*border-top: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
+  background: #FAFAFA;
+}
+
+.linkcolumn {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+#linkpica {
+  background-image: url(assets/epi_link_conf.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.linkcolumn.wide {
+  grid-template-columns: 42% 58% !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  transition: grid-template-columns 200ms linear;
+  transition: box-shadow 200ms linear;
+}
+
+.linkswitch {
+  border: 1px solid black;
+}
+
+.linkfixed {
+  width: 40vw;
+  max-width: 40vw;
+}
+
+#noborder {
+  border: none;
+}
+
+#shiftcol.wide {
+  background: black !important;
+  transition: background 200ms linear;
+}
+
+.epibutton {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+  background: white;
+  font-family: aktiv-grotesk, sans-serif;
+}
+
+#epiheadvert {
+  margin: auto;
+}
+
+#epilogowidth {
+  width: 20vw;
+}
+
+
+#onmargin {
+  padding-top: 10vh;
+}
 
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
 
