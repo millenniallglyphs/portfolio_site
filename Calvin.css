@@ -1327,7 +1327,47 @@ display: block;
   padding-top: 10vh;
 }
 
+#quotebreak {
+  display: inline-flex;
+}
+
+.hiddenbreak {
+  display: none;
+}
+
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
+
+@media only screen and (max-width: 1250px) {
+
+  #bannervert {
+    font-size: 180px;
+  }
+
+  #bannercall {
+    left: 20%;
+  }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+  #bannervert {
+    font-size: 8em;
+  }
+
+  .bigcall {
+    width: 90%;
+  }
+
+  #nope {
+    display: none;
+  }
+
+
+}
+
+
+
 
 @media only screen and (max-width: 1000px) {
 
@@ -1989,7 +2029,7 @@ display: block;
   }
 
   .middleim {
-    width: 95%;
+    width: 100%;
     margin: auto;
   }
 
@@ -1998,7 +2038,7 @@ display: block;
   }
 
   #bannervert {
-    font-size: 5em;
+    font-size: 10em;
   }
 
   #bannercall {
@@ -2037,5 +2077,93 @@ display: block;
     width: 100%;
   }
 
+  #trend {
+    width: 75vw;
+  }
+
+  #doublemarg {
+    padding-top: 0vh;
+    padding-bottom: 0%;
+  }
+
+  #margbottomg {
+    padding-bottom: 0vh;
+  }
+
+  .greytext {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+
+  #gifvert {
+    margin-bottom: 0vh;
+  }
+
+  .ababutton {
+    margin-left: 2.5%;
+  }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  #trend {
+    width: 80vw;
+  }
+
+  #bannervert {
+    font-size:7.5em;
+  }
+
+  .hiddenbreak {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #bannervert {
+    font-size: 5em;
+  }
+
+  #bannercol {
+    height: 75vh;
+  }
+
+  #bannerpichii {
+    height: 75vh;
+  }
+
+  #doublemarg {
+    padding-top: 0vh;
+    padding-bottom: 0%;
+  }
+
+  #margbottomg {
+    padding-bottom: 0vh;
+  }
+
+  .middleim {
+    width: 100%;
+  }
+
+  .bigcall {
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+  }
+
+  #gifvert {
+    margin-bottom: 0vh;
+  }
+
+  #dissapearme {
+    display: none;
+  }
+
+  .hiddenbreak {
+    display: block;
+  }
 
 }

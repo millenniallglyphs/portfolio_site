@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  line-height: normal;
 }
 
 a {
@@ -144,6 +145,7 @@ body {
   font-family: aktiv-grotesk-extended, sans-serif;
   font-weight: 700;
   margin: auto;
+  line-height: 200px;
 }
 
 #mainhold {
@@ -166,7 +168,7 @@ body {
   padding: 10px;
   outline: 1px solid black;
   width: 200px;
-  margin-top: 10vh;
+  margin-top: 6vh;
 }
 
 /*add css transition to button*/
@@ -330,8 +332,17 @@ svg:hover .socialnow {
 
 @media only screen and (max-width: 1000px) {
 
+  #mainhold {
+    width: 90%;
+  }
+
  .announce {
-   font-size: 10vh;
+   font-size: 14vh;
+   line-height: 14vh
+ }
+
+ #disp {
+   display: none;
  }
 
  .para {
@@ -400,6 +411,14 @@ svg:hover .socialnow {
 
 @media only screen and (max-width: 600px) {
 
+  #main {
+    height: 85vh;
+  }
+
+  #heightcomp {
+    height: 83vh;
+  }
+
   .cutt {
     display: none;
   }
@@ -433,7 +452,7 @@ svg:hover .socialnow {
   }
 
   .announce {
-    font-size: 3.8em;
+    font-size: 4.3em;
     line-height: 1.2em;
   }
 
@@ -452,8 +471,6 @@ svg:hover .socialnow {
   .button {
     line-height: 40px;
     text-align: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
     margin-top: 6vh;
     font-size: 16px;
     width: 180px;
@@ -461,11 +478,12 @@ svg:hover .socialnow {
 
   .contents {
     width: 90%;
-    padding-top: 16vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 
   .projtitle {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   #colorblockb {
