@@ -1335,6 +1335,10 @@ display: block;
   display: none;
 }
 
+#dispilu {
+  display: none;
+}
+
 /*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*//*40em*/
 
 @media only screen and (max-width: 1250px) {
@@ -1372,6 +1376,112 @@ display: block;
 @media only screen and (max-width: 1000px) {
 
   /*transition to one column*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.work_words {
+  width: 95%;
+  max-width: 475px;
+  margin: auto;
+  margin-top: 0vh;
+}
+
+#botpic {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  margin-left: 0;
+  clear: both;
+}
+
+#headcontain {
+  position: relative;
+  display: block;
+  width: 50vh;
+  margin: auto;
+  margin-bottom: 30vh;
+  transform: none;
+  padding-top: 25vh;
+}
+
+#buildout {
+  margin-top: 5vh;
+  margin-bottom: 200px;
+}
+
+#bothead {
+  height: auto;
+}
+
+.botgrid {
+  display: block;
+}
+
+.botgridb {
+  display: block;
+}
+
+.botgridc {
+  display: block;
+}
+
+.botgride {
+  display: block;
+}
+
+.botnetpic {
+  display: block;
+}
+
+.nuebox {
+  padding-top: 0%;
+}
+#bottop {
+  padding-top: 0%;
+}
+
+.botpar {
+  padding-bottom: 8vh;
+  padding-top: 8vh;
+}
+
+#octgrid {
+  grid-template-columns: 10% auto 10% auto 10%;
+}
+
+.octgriddim {
+  width: 100%;
+}
+
+#partial {
+  width: 80%;
+  max-width: 570px;
+  margin: auto;
+}
+
+#botdiagramhold {
+  width: 80%;
+  max-width: 570px;
+  margin: auto;
+}
+
+#diagrambot {
+  width: 100%;
+}
+
+.botpicdimb {
+  width: 100%;
+}
+
+#octgrid {
+  margin-top: 0vh;
+}
+
+.botpicdim {
+  width: 100%;
+}
+
+#parfloat {
+  margin-bottom: 10vh;
+}
 
 #spans {
   display: block;
@@ -1952,6 +2062,7 @@ display: block;
 
   #userhold {
     width: 95%;
+    margin-bottom: 5vh;
   }
 
   #uservet {
@@ -1971,11 +2082,8 @@ display: block;
   }
 
   #userilu {
-    margin-top: 10vh;
-    margin: auto;
-    width: 95%;
-    max-width: 400px;
-    padding: top: 10vh;
+    display: none;
+
   }
 
   #peopleweb {
@@ -1986,6 +2094,7 @@ display: block;
 
   #userholda {
     width: 95%;
+    margin-top: 5vh;
   }
 
   #userveta {
@@ -2103,6 +2212,102 @@ display: block;
     margin-left: 2.5%;
   }
 
+  #dispilu {
+    display: block;
+    margin-top: 10vh;
+    margin: auto;
+    width: 95%;
+    max-width: 400px;
+    padding: top: 10vh;
+    padding-left: 35px;
+  }
+
+  .botgridb {
+    padding-top: 0px;
+  }
+
+  #trigrid {
+    display: block;
+  }
+
+  div[id*="hovercard"] {
+    margin-bottom: 3vh;
+  }
+
+  .epigridleft {
+    display: block;
+  }
+
+  .epigridright {
+    display: block;
+  }
+
+  .epidim {
+    width: 100%;
+  }
+
+  .epipar {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
+
+  .whitedouble {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  #linetop {
+    padding-top: 0px;
+  }
+
+  #onmargin {
+    padding-top: 0px;
+  }
+
+  .linkcolumn {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    grid-template-columns: 100% 0%;
+    width: 80%
+    margin:auto;
+  }
+
+  .linkcolumn.wide {
+    grid-template-columns: 100% 0% !important;
+  }
+
+  #epihead {
+    display: block;
+  }
+
+  #epiheadvert {
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+  }
+
+  #epidisp {
+    display: inline-flex;
+  }
+
+  #epidispwidth {
+    margin: auto;
+    display: inherit;
+  }
+
+  #comparehii {
+    height: 50vh;
+  }
+
+  #epilogowidth {
+    width: 78vw;
+  }
+
+  #epiheroim {
+    width: 100%;
+    height: 50vh;
+  }
+
 
 }
 
@@ -2118,6 +2323,10 @@ display: block;
 
   .hiddenbreak {
     display: none;
+  }
+
+  #help {
+    font-size: .8em;
   }
 
 }
