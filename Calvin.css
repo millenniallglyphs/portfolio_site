@@ -836,13 +836,13 @@ background: linear-gradient(135deg, #f7f4f4 1%,#fce5e7 100%); /* W3C, IE10+, FF1
   padding-top: 10vh;
 }
 
-#trtiadcard {
+.trtiadcard {
   width: 1140px;
   margin: auto;
   margin-top: 10vh;
 }
 
-#tridsip {
+.tridsip {
   display: inline-flex;
 }
 
@@ -1265,7 +1265,7 @@ display: block;
 .nomarg {
   /*border-top: 1px solid black;*/
   /*border-bottom: 1px solid black;*/
-  
+
 }
 
 .linkcolumn {
@@ -2019,7 +2019,7 @@ display: block;
     margin-top: 10vh;
   }
 
-  #tridsip {
+  .tridsip {
     display: block;
   }
 
