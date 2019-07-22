@@ -1157,13 +1157,14 @@ h1.bitc {
   background-position: center;
 }
 
-#ctabig {
+.ctabig {
   width: 100%;
-  border-top: 1px solid black;
   padding-bottom: 10vh;
+  padding-top: 10vh;
+  background: #F4F2EF;
 }
 
-#trigrid {
+.trigrid {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-column-gap: 30px;
@@ -1184,19 +1185,22 @@ div[id*="hovercard"].hov {
 
 .linkcard {
   border: 1px solid black;
+  border-radius: 5px;
   display: inline-flex;
+  background: white;
 }
 
-#trtiadhold {
-  width: 80%;
-  max-width: 1300px;
+.trtiadhold {
+  width: 90%;
+  /*max-width: 1300px;*/
   margin: auto;
-  margin-top: 10vh;
 }
 
 .linkicon {
-  width: 120px;
+  width: 60px;
   border-right: 1px solid black;
+  border-radius: 5px 0 0 5px;
+  background: transparent;
   display: inline-flex;
 }
 
@@ -1251,20 +1255,17 @@ display: block;
 }
 
 #linetop {
-  padding-top: 10vh;
   /*border-top: 1px solid black;*/
-  background: #FAFAFA;
 }
 
 .whitedouble {
-  padding-top: 10vh;
   padding-bottom: 10vh;
 }
 
 .nomarg {
   /*border-top: 1px solid black;*/
   /*border-bottom: 1px solid black;*/
-  background: #FAFAFA;
+  
 }
 
 .linkcolumn {
@@ -1305,13 +1306,18 @@ display: block;
 }
 
 .epibutton {
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
   border: 1px solid black;
-  padding: 15px;
+  border-radius: 5px;
   background: white;
   font-family: aktiv-grotesk, sans-serif;
+  display: inline-flex;
+}
+
+.innerbutton {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 #epiheadvert {
@@ -1349,6 +1355,14 @@ display: block;
 
   #bannercall {
     left: 20%;
+  }
+
+  .trigrid {
+    display: block;
+  }
+
+  div[id*="hovercard"] {
+    margin-bottom: 3vh;
   }
 
 }
@@ -1999,7 +2013,7 @@ display: block;
     margin-bottom: -120px;
   }
 
-  #trtiadcard {
+  .trtiadcard {
     width: 90%;
     margin: auto;
     margin-top: 10vh;
@@ -2226,7 +2240,7 @@ display: block;
     padding-top: 0px;
   }
 
-  #trigrid {
+  .trigrid {
     display: block;
   }
 
