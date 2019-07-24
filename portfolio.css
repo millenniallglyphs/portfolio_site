@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.heaetext {
+  width: 75%;
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  text-align: center;
+}
+
+.heaetext>h3 {
+  font-family: 'aktiv-grotesk', sans-serif;
+  font-size: 50px;
+}
+
+.projshow {
+  width: 100%;
+  border-top: 1px solid #E7DCD1;
+  border-bottom: 1px solid #E7DCD1;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.projshowa {
+  width: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.projgridhold {
+  width: 95%;
+  margin: auto;
+}
+
+.projgrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-column-gap: 10px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px;
+}
+
+.projpicdim {
+  width: 100%;
+}
+
+.projpic-a {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-start: 2;
+}
+
+.projpic-b {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-start: 2;
+  background-image: url(assets/animoc.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.projpara {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-start: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.projpic-c {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-start: 3;
+}
+
+.projpic-d {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-start: 3;
+}
+
+.projparab {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-start: 2;
+}
+
+.projpica-a {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-start: 2;
+}
+
+.projpica-b {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-start: 2;
+}
+
+.projpica-c {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-start: 3;
+}
+
+.projpica-d {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-start: 3;
+}
+
+#countingdown {
+  background: white;
+
+}
+
+div[class*="projpara"]>h3 {
+  font-size: 30px;
+  font-family: 'aktiv-grotesk', sans-serif;
+}
+
+div[class*="projpara"]>p {
+  font-size: 16px;
+  line-height: 140%;
+  font-family: 'aktiv-grotesk', sans-serif;
+}
+
+.portfoliohead {
+  padding-top: 60px;
+}
+
+#counta {
+  font-family: 'aktiv-grotesk-extended', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#counta>span.big {
+  color: #33BC6A;
+}
+
+#countwidth {
+  width: 80%;
+  margin: auto;
+}
+
+#projgrid {
+  display: inline-flex;
+}
+
+.timedown {
+  margin: auto;
+}
+
+#countdownhii {
+  height: 30%;
+}
+
+#report {
+  background-image: url(assets/epi_paper_casestudyprev.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#arduino {
+  background-image: url(assets/epi_start_caseprev.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#poster {
+  background-image: url(assets/hmnst03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#booklet {
+  background-image: url(assets/hmnst05.1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#process {
+  background-image: url(assets/process.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#accessdenied {
+  background-image: url(assets/access01.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#contained {
+  padding: 5%;
+}
