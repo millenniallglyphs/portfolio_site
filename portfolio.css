@@ -15,6 +15,7 @@ body {
 
 .heaetext {
   width: 75%;
+  max-width: 700px;
   margin: auto;
   margin-top: 20vh;
   margin-bottom: 20vh;
@@ -24,6 +25,12 @@ body {
 .heaetext>h3 {
   font-family: 'aktiv-grotesk', sans-serif;
   font-size: 50px;
+}
+
+.heaetext>p {
+  font-size: 16px;
+  line-height: 140%;
+  font-family: 'aktiv-grotesk', sans-serif;
 }
 
 .projshow {
@@ -209,6 +216,7 @@ div[class*="projpara"]>p {
   background-image: url(assets/bitcmap.jpg);
   background-size: cover;
   background-position: center;
+  height: auto;
 }
 
 #accessdenied {
@@ -235,6 +243,12 @@ div[class*="projpara"]>p {
   background-position: center;
 }
 
+#allill {
+  background-image: url(assets/bitensem.png);
+  background-size: cover;
+  background-position: center;
+}
+
 #contained {
-  padding: 5%;
+  padding: 6%;
 }
