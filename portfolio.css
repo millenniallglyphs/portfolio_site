@@ -28,16 +28,16 @@ body {
 
 .projshow {
   width: 100%;
-  border-top: 1px solid #E7DCD1;
-  border-bottom: 1px solid #E7DCD1;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  border-top: 2px solid #F6F1F1;
+  border-bottom: 2px solid #F6F1F1;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .projshowa {
   width: 100%;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .projgridhold {
@@ -102,6 +102,8 @@ body {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-start: 2;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .projpica-a {
@@ -133,7 +135,7 @@ body {
 }
 
 #countingdown {
-  background: white;
+  background: #F6F1F1;
 
 }
 
@@ -204,13 +206,31 @@ div[class*="projpara"]>p {
 }
 
 #process {
-  background-image: url(assets/process.jpg);
+  background-image: url(assets/bitcmap.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #accessdenied {
   background-image: url(assets/access01.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#moodboard {
+  background-image: url(assets/halsacomp.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#colorbox {
+  background-image: url(assets/color.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#colabmoc {
+  background-image: url(assets/quickmoc.jpg);
   background-size: cover;
   background-position: center;
 }
