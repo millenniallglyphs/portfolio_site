@@ -492,3 +492,11 @@ svg:hover .socialnow {
   }
 
 }
+
+@media only screen and (max-width: 1275px) {
+
+  .projpara {
+    display: none;
+  }
+
+}
