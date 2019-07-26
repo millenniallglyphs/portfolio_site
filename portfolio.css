@@ -35,8 +35,6 @@ body {
 
 .projshow {
   width: 100%;
-  border-top: 0.5px solid black;
-  border-bottom: 0.5px solid black;
   padding-top: 6%;
   padding-bottom: 6%;
 }
@@ -191,9 +189,7 @@ div[class*="projpara"]>p {
 }
 
 #countwidth {
-  width: 80%;
-  max-width: 480px;
-  margin: auto;
+
 }
 
 #countdowndisp {
@@ -245,14 +241,14 @@ div[class*="projpara"]>p {
 }
 
 #process {
-  background-image: url(assets/bitcmap.jpg);
+  background-image: url(assets/iocons.jpg);
   background-size: cover;
   background-position: center;
   height: auto;
 }
 
 #accessdenied {
-  background-image: url(assets/access01.png);
+  background-image: url(assets/cover03.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -281,8 +277,20 @@ div[class*="projpara"]>p {
   background-position: center;
 }
 
+#dat {
+  background-image: url(assets/DAT04.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 #contained {
   padding: 6%;
+}
+
+#abapicv {
+  background-image: url(assets/animoc.gif);
+  background-size: cover;
+  background-position: center;
 }
 
 .casebutton {
