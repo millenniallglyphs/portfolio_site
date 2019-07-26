@@ -19,11 +19,11 @@ body {
   margin: auto;
   margin-top: 16vh;
   margin-bottom: 16vh;
-  text-align: center;
+  text-align: left;
 }
 
 .heaetext>h3 {
-  font-family: 'aktiv-grotesk', sans-serif;
+  font-family: 'aktiv-grotesk-extended', sans-serif;
   font-size: 50px;
 }
 
@@ -35,8 +35,8 @@ body {
 
 .projshow {
   width: 100%;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
   padding-top: 6%;
   padding-bottom: 6%;
 }
@@ -148,7 +148,7 @@ body {
 
 div[class*="projpara"]>h3 {
   font-size: 30px;
-  font-family: 'aktiv-grotesk', sans-serif;
+  font-family: 'aktiv-grotesk-extended', sans-serif;
 }
 
 div[class*="projpara"]>p {
@@ -159,7 +159,7 @@ div[class*="projpara"]>p {
 
 .altpara>h3 {
   font-size: 30px;
-  font-family: 'aktiv-grotesk', sans-serif;
+  font-family: 'aktiv-grotesk-extended', sans-serif;
 }
 
 .altpara>p {
@@ -192,7 +192,19 @@ div[class*="projpara"]>p {
 
 #countwidth {
   width: 80%;
+  max-width: 480px;
   margin: auto;
+}
+
+#countdowndisp {
+  display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
 }
 
 #projgrid {
@@ -204,7 +216,8 @@ div[class*="projpara"]>p {
 }
 
 #countdownhii {
-  height: 30%;
+  display: inherit;
+  height: 100%;
 }
 
 #report {
