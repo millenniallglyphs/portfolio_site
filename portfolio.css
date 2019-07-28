@@ -139,6 +139,20 @@ body {
   grid-row-end: 3;
 }
 
+.projpic-large {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.projpica-bigright {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
 #countingdown {
   background: #F6F1F1;
 
