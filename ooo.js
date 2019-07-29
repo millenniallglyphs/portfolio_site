@@ -69,7 +69,7 @@ $(function () {
 $(function () {
   $(document).scroll(function () {
 	  var $nav = $("#halsatop");
-	  $nav.toggleClass('#new', $(this).scrollTop() > $nav.height());
+	  $nav.toggleClass('new', $(this).scrollTop() > $nav.height());
 	});
 });
 
