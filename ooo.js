@@ -66,6 +66,13 @@ $(function () {
 	});
 });
 
+$(function () {
+  $(document).scroll(function () {
+	  var $nav = $("#halsatop");
+	  $nav.toggleClass('#new', $(this).scrollTop() > $nav.height());
+	});
+});
+
 //copy ipfs to the clipboard
 
 $("#backwhite") .click(function () {

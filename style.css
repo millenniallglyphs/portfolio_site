@@ -37,6 +37,14 @@ body {
   transition: background-color 200ms linear;
 }
 
+#halsatop {
+  background: transparent;
+}
+
+#halsatop.new {
+  background-color: #143774 !important;
+}
+
 .name {
   color: black;
   font-family: 'aktiv-grotesk', sans-serif;
