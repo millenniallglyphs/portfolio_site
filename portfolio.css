@@ -307,6 +307,18 @@ div[class*="projpara"]>p {
   background-position: center;
 }
 
+#botmov {
+  background-image: url(assets/botnet.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+#botpost {
+  background-image: url(assets/botnetposter02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .casebutton {
   padding: 15px;
   border: 1px solid black;
