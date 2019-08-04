@@ -268,9 +268,9 @@ div[class*="projpara"]>p {
 }
 
 #moodboard {
-  background-image: url(assets/showstyle.jpg);
+  background-image: url(assets/styleguide00lite.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 
 #colorbox {
