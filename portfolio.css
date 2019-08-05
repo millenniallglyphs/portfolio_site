@@ -319,6 +319,20 @@ div[class*="projpara"]>p {
   background-position: center;
 }
 
+#arhtur {
+  background-image: url(assets/screenmaoarthur.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#usertest {
+  background-image: url(assets/usertest2.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+
+
 .casebutton {
   padding: 15px;
   border: 1px solid black;
