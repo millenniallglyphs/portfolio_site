@@ -331,6 +331,12 @@ div[class*="projpara"]>p {
   background-position: left;
 }
 
+#notifya {
+  background-image: url(assets/notify.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
 
 
 .casebutton {
