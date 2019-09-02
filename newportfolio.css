@@ -338,11 +338,12 @@ div[class*="projpar"]>p {
     margin: auto;
     padding: 20px;
     width: 90%;
-    max-width: 600px;
+    max-width: 150px;
   }
 
   .toplogo {
     width: 100%;
+    max-width: 150px;
   }
 
   .headhold {
