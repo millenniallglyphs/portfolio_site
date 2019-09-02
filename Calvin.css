@@ -866,7 +866,12 @@ background: linear-gradient(135deg, #f7f4f4 1%,#fce5e7 100%); /* W3C, IE10+, FF1
 }
 
 .trtiadcard {
+}
 
+.tratiadcard {
+  padding-top: 5vh;
+  width: 1140px;
+  margin: auto;
 }
 
 .tridsip {
