@@ -1432,6 +1432,11 @@ display: block;
     display: block;
   }
 
+  .trigrid>.epibutton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   div[id*="hovercard"] {
     margin-bottom: 3vh;
   }
