@@ -866,9 +866,7 @@ background: linear-gradient(135deg, #f7f4f4 1%,#fce5e7 100%); /* W3C, IE10+, FF1
 }
 
 .trtiadcard {
-  width: 1140px;
-  margin: auto;
-  margin-top: 10vh;
+
 }
 
 .tridsip {
@@ -1124,7 +1122,7 @@ h1.bitc {
   background-image: url(assets/sketchextension.jpg);
   background-size: cover;
   background-position: center;
-  height: auto;
+  height: 60%;
 }
 
 #gifvert {
@@ -1139,6 +1137,10 @@ h1.bitc {
 
 #count>span {
   color: #33BC6A;
+}
+
+#count>span#dissapearme {
+  color: black;
 }
 
 .ababutton {
@@ -1176,8 +1178,24 @@ h1.bitc {
 #epihead {
   width: 100%;
   height: 100vh;
-  display: grid;
-  grid-template-columns: auto 60%;
+}
+
+#epimov {
+  width: 100%;
+  height: 80vh;
+  background-image: url(assets/botshot.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+#epilogosize {
+  width: 200px;
+}
+
+#epilogosmall {
+  width: 200px;
+  margin: auto;
+  padding-top: 8vh;
 }
 
 #epiheroim {
@@ -1186,14 +1204,30 @@ h1.bitc {
   background-position: center;
 }
 
-.ctabig {
+#topmargmore {
+  padding-top: 10vh;
+}
+
+.colorhold {
   width: 100%;
+  background: #FBFBFB;
+}
+
+.ctabig {
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
   padding-bottom: 10vh;
   padding-top: 10vh;
-  background: #F4F2EF;
+}
+
+#colorme {
+  background: #FBFBFC;
 }
 
 .trigrid {
+  max-width: 1400px;
+  width: 100%;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-column-gap: 30px;
@@ -1219,10 +1253,19 @@ div[id*="hovercard"].hov {
   background: white;
 }
 
-.trtiadhold {
-  width: 90%;
-  /*max-width: 1300px;*/
+.epicentertext {
+  width: 80%;
+  max-width: 800px;
   margin: auto;
+}
+
+#centerenow {
+  text-align: center;
+}
+
+.trtiadhold {
+  max-width: 1400px;
+  width: 100%;
 }
 
 .linkicon {
@@ -1339,7 +1382,6 @@ display: block;
   border-radius: 5px;
   background: white;
   font-family: aktiv-grotesk, sans-serif;
-  display: inline-flex;
 }
 
 .innerbutton {
@@ -1954,7 +1996,7 @@ display: block;
   .triad {
     display: grid;
     grid-template-columns: auto;
-    width: 95%;
+    width: 100%;
   }
 
   .rough {
@@ -2215,6 +2257,10 @@ display: block;
 
   #falsestart {
     grid-template-columns: 100%;
+  }
+
+  #rightsize {
+    display: none;
   }
 
   #mobilemarg {
