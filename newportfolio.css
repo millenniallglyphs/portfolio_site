@@ -1,6 +1,83 @@
+.timedownhome {
+
+}
+
+#counthome {
+  font-family: aktiv-grotesk-extended, sans-serif;
+}
+
+.bighome {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 1.4em;
+}
+
 .holdingbody {
   width: 90%;
   margin: auto;
+}
+
+.hometop {
+  font-size: 16px;
+}
+
+#headholda {
+  margin-top: 12vh;
+  margin-bottom: 25vh;
+}
+
+#maintwo {
+width: 100%;
+height: 100vh;
+background:
+#F7F7F7;
+padding: 0;
+margin: 0;
+}
+
+#heightlittle {
+  height: 20vh;
+}
+
+#greyhome {
+  background: #F7F7F7;
+}
+
+.nextwrite {
+  background: transparent;
+  outline: none;
+  border: 0px;
+}
+
+.holdgreybottom {
+  padding-top: 20vh;
+  background: #F7F7F7;
+  width: 100%;
+}
+
+.holdgridwrite {
+  width: 85%;
+  margin: auto;
+}
+
+.projparwriting {
+  width: 100%;
+}
+
+.contentshome {
+  width: 100%;
+}
+
+#colorblockd {
+  float: right;
+  height: 5vh;
+  background: black;
+  width: 20%;
+}
+
+#colorblocke {
+  height: 5vh;
+  background: #F7F7F7;
+  width: 70%;
 }
 
 .holdgrid {

@@ -75,8 +75,8 @@ $(function () {
 
 //copy ipfs to the clipboard
 
-$("#backwhite") .click(function () {
-  var copyText = $("#mine").text();
+$("#ipfstop") .click(function () {
+  var copyText = $("#ipfs").text();
   document.execCommand("copy");
   alert("Copied the text: " + copyText);
 })
